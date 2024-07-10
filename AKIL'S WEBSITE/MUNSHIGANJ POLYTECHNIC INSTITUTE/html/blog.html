@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>this is my nw</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- <script src="index.js"></script> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+        <div class="nav-links" id="navlink">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOCK</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certifcate & Online Program 2023</h1>
+    </section>
+
+    <!-- -----------blog page content------------------ -->
+
+    <section class="blog-content"></section>
+    <div class="row">
+      <div class="blog-left">
+        <img src="class.jpg" alt="" />
+        <h2>Our Certifcate & Online Program 2023</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          tempore eum non officia quae aliquam quis nostrum praesentium
+          dignissimos porro doloribus excepturi quos, rerum alias?
+        </p>
+        <p>
+          <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+          soluta excepturi tempora neque itaque temporibus aperiam
+          exercitationem omnis eius maxime. Maiores unde nihil <br />2 quasi.
+          Architecto. <br />
+          <br />Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+          dolores cumque non magni eius a, animi ducimus nam ratione ipsam
+          dolorem exercitationem quia sit culpa, quas repellat totam maxime quod
+          nisi ipsa id. Molestiae molestias esse quidem vero dolorem quo
+          adipisci, nemo, unde error quaerat nisi voluptas aliquam recusandae
+          officiis.z
+        </p>
+      </div>
+
+      <div class="blog-right">
+        <h3>Post Catagories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>machine Leaning</span>
+          <span>22</span>
+        </div>
+        <div>
+          <span>Data Science</span>
+          <span>23</span>
+        </div>
+        <div>
+          <span> Computer Peripherals</span>
+          <span>24</span>
+        </div>
+        <div>
+          <span>Data Structure and Algorithm</span>
+          <span>25</span>
+        </div>
+        <div>
+          <span>Commerce science</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Spoken English </span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Full Stack web Design</span>
+          <span>21</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="comment-box">
+        <h3>Leave a Comment</h3>
+        <form action="" class="comment-form">
+          <input type="text" placeholder="Enter your name" id="n" />
+
+          <input type="email" placeholder="Enter your Email" id="m" />
+          <textarea rows="5" placeholder="your comment"> </textarea>
+          <button type="submit" class="red-btn hero-btn ">Post Comment</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- -----------Footer----------- -->
+    <div class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        similique maxime <br />
+        nobis impedit ipsam, labore repellendus fugit dolorem. Non, excepturi.
+      </p>
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Akil Anjum Mahi</p>
+      </div>
+    </div>
+    <script>
+      var navlink = document.getElementById("navlink");
+      function showMenu() {
+        navlink.style.right = "0";
+      }
+
+      function hideMenu() {
+        navlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
